@@ -1,0 +1,714 @@
+<!doctype html>
+<!--[if IE 7 ]>
+<html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>
+<html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="zxx">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ФГБОУ ВО Первый Санкт-Петербургский государственный медицинский университет им.академика И.П.Павлова Минздрава РФ</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,700,700i,900" rel="stylesheet">
+
+    <!-- Icon CSS -->
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/ts.css" rel="stylesheet">
+    <link href="js/slick/slick.css" rel="stylesheet">
+    <link href="js/lity/lity.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jssor.slider-23.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:5500,d:3000,o:-1,r:240,e:{r:2}}],
+              [{b:-1,d:1,o:-1,c:{x:51.0,t:-51.0}},{b:0,d:1000,o:1,c:{x:-51.0,t:51.0},e:{o:7,c:{x:7,t:7}}}],
+              [{b:-1,d:1,o:-1,sX:9,sY:9},{b:1000,d:1000,o:1,sX:-9,sY:-9,e:{sX:2,sY:2}}],
+              [{b:-1,d:1,o:-1,r:-180,sX:9,sY:9},{b:2000,d:1000,o:1,r:180,sX:-9,sY:-9,e:{r:2,sX:2,sY:2}}],
+              [{b:-1,d:1,o:-1},{b:3000,d:2000,y:180,o:1,e:{y:16}}],
+              [{b:-1,d:1,o:-1,r:-150},{b:7500,d:1600,o:1,r:150,e:{r:3}}],
+              [{b:10000,d:2000,x:-379,e:{x:7}}],
+              [{b:10000,d:2000,x:-379,e:{x:7}}],
+              [{b:-1,d:1,o:-1,r:288,sX:9,sY:9},{b:9100,d:900,x:-1400,y:-660,o:1,r:-288,sX:-9,sY:-9,e:{r:6}},{b:10000,d:1600,x:-200,o:-1,e:{x:16}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+
+        };
+    </script>
+    <style>
+
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+    </style>
+
+
+</head>
+<body>
+
+<div class="wrapper">
+
+	<!-- SIDE MENU -->
+	<div id="sidebar-wrapper" class="hidden-xs">
+	<ul class="nav navbar-nav">
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Главная</a>
+						
+					</li>
+
+					<li class="dropdown dropdown-v2">
+		                	<a href="./post_page_03.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Новости</a>
+					
+					</li>
+	<li class="dropdown dropdown-v2">
+		            
+
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">События</a>
+						
+					</li>
+
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Участникам</a>
+				
+					</li>
+
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Партнерам</a>
+						
+					</li>
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Галерея</a>
+						
+					</li>
+
+					<li class="dropdown dropdown-v2">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Тезисы</a>
+						
+					</li>
+
+
+<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Обучение<span class="fa fa-angle-down"></span></a>
+						<ul class="dropdown-menu">
+<li> <a href="./post_page_01.html">Симуляционный тренинговый центр</a></li>
+<li> <a href="./post_page_01.html">Телемедицинский центр</a></li>
+
+<li> <a href="./post_page_01.html">Ресурсный центр</a></li>
+<li> <a href="./post_page_01.html">НМО</a></li>
+</ul>
+			</li>	
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">СМИ о нас</a>
+						
+					</li>			
+
+<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Контакты</a>
+						
+					</li>
+
+					
+				</ul>
+	</div>
+	<!-- // SIDE MENU -->
+
+	<!-- HEADER / MENU -->
+	<header class="header1 header-megamenu">
+		<div class="topbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-8 hidden-xs">
+						
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="pull-right account-options">
+						    <a href="#" >EN</a>
+							<span>|</span>
+							<a href="#" >RU</a>
+							<span>|</span>
+							<a href="#" class="login">Кабинет</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="navbar-header padding-vertical-10">
+			<div class="container">
+				<span class="offset-trigger hidden-xs">
+				<span></span>
+				<span></span>
+				<span></span>
+				</span>
+				<a href="./index.html" class="navbar-brand"><img src="images/logo.png" class="img-responsive" alt=""/></a>
+				<div class="ad-banner pull-right hidden-xs">
+					<a href="./index.html" ><img src="images/logo.png" class="img-responsive" alt=""/></a>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="container">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<span>Навигация</span>
+			<span class="fa fa-navicon"></span>
+			</button>
+
+			<div class="search-wrap2">
+				<form>
+					<input type="text" placeholder="Search by typing">
+					<div class="sw2-close"><span class="fa fa-close"></span></div>
+				</form>
+			</div>
+
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Главная</a>
+						
+					</li>
+
+					<li class="dropdown dropdown-v2">
+		                	<a href="./post_page_03.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Новости</a>
+					
+					</li>
+	<li class="dropdown dropdown-v2">
+		            
+
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">События</a>
+						
+					</li>
+
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Участникам</a>
+				
+					</li>
+
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Партнерам</a>
+						
+					</li>
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Галерея</a>
+						
+					</li>
+
+					<li class="dropdown dropdown-v2">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Тезисы</a>
+						
+					</li>
+
+
+<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Обучение<span class="fa fa-angle-down"></span></a>
+						<ul class="dropdown-menu">
+<li> <a href="./post_page_01.html">Симуляционный тренинговый центр</a></li>
+<li> <a href="./post_page_01.html">Телемедицинский центр</a></li>
+
+<li> <a href="./post_page_01.html">Ресурсный центр</a></li>
+<li> <a href="./post_page_01.html">НМО</a></li>
+</ul>
+			</li>	
+					<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">СМИ о нас</a>
+						
+					</li>			
+
+<li class="dropdown dropdown-v2">
+		                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Контакты</a>
+						
+					</li>
+
+					<li class="pull-right hidden-xs">
+						<div class="search-trigger search-trigger2"><i class="fa fa-search"></i></div>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</header>
+	<!-- // HEADER / MENU -->
+<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/red.jpg" />
+                
+            </div>
+            <div>
+                <img data-u="image" src="img/purple.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/blue.jpg" />
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>		
+
+	<div class="container margin-top-30">
+		<div class="row">
+			<div class="col-md-8 col-sm-8">
+				<div class="layout_1 margin-bottom-30">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="layout_1--item">
+								<a href="./post_page_01.html">
+									<span class="badge text-uppercase badge-overlay badge-tech">Конференции</span>
+									<div class="overlay"></div>
+									<img src="images/home/01/1.jpg" class="img-responsive" alt=""/>
+									<div class="layout-detail padding-25">
+										<div class=""></div>
+										<h4>1-й международный научный конгресс «Инновации в акушерстве, гинекологии и репродуктологии»</h4>
+										<p>состоится 26 - 28 октября 2017 года
+
+в Санкт-Петербурге</p>
+<div class="meta"><span class="date">26-28 октября 2017 года</span></div>
+									
+						
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="layout_1--item">
+								<a href="./post_page_01.html">
+									<span class="badge text-uppercase badge-overlay badge-travel">Круглые столы</span>
+									<div class="overlay"></div>
+									<img src="images/home/01/2.jpg" class="img-responsive" alt=""/>
+									<div class="layout-detail padding-20">
+										<h5>Is International Banking Getting Better or Worse?</h5>
+										<div class="meta"><span class="date">Sep. 27, 2016</span></div>
+									</div>
+								</a>
+							</div>
+							<div class="layout_1--item">
+								<a href="./post_page_01.html">
+									<span class="badge text-uppercase badge-overlay badge-science">Мероприятия</span>
+									<div class="overlay"></div>
+									<img src="images/home/01/3.jpg" class="img-responsive" alt=""/>
+									<div class="layout-detail padding-20">
+										<div class="icon-24 video2 default"></div>
+										<h5>Facebook Messenger Just Crossed a Huge Milestone</h5>
+										<div class="meta"><span class="date">Sep. 27, 2016</span></div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="layout_2 margin-bottom-20">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<div class="layout_2--item">
+								<div class="thumb">
+									<a href="./post_page_01.html"><img src="images/home/02/1.jpg" class="img-responsive" alt=""/></a>
+								</div>
+								<span class="cat">Конференция</span>
+								<h4><a href="./post_page_01.html">Unilever Buys Dollar Shave Club for $1 Billion</a></h4>
+								<div class="meta"><span class="date">Sep. 28, 2016</span></div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="layout_2--item">
+								<div class="thumb">
+									<a href="./post_page_01.html"><img src="images/home/02/2.jpg" class="img-responsive" alt=""/></a>
+								</div>
+								<span class="cat">Круглый стол</span>
+								<h4><a href="./post_page_01.html">Fox Pushes Back Against Report of Roger Ailes' Firing</a></h4>
+								<div class="meta"><span class="date">Sep. 27, 2016</span></div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="layout_2--item">
+								<div class="thumb">
+									<a href="./post_page_01.html"><img src="images/home/02/3.jpg" class="img-responsive" alt=""/></a>
+								</div>
+								<span class="cat">Мероприятие</span>
+								<h4><a href="./post_page_01.html">We're About to Live in a World of Economic Hunger Games</a></h4>
+								<div class="meta"><span class="date">Sep. 25, 2016</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<div class="layout_2--item">
+								<div class="thumb">
+									<div class="icon-24 video2"></div>
+									<a href="./post_page_01.html"><img src="images/home/02/4.jpg" class="img-responsive" alt=""/></a>
+								</div>
+								<span class="cat">Выставка</span>
+								<h4><a href="./post_page_01.html">Here's Why Netflix's Stock Is Tanking Right Now</a></h4>
+								<div class="meta"><span class="date">Sep. 23, 2016</span></div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="layout_2--item">
+								<div class="thumb">
+									<a href="./post_page_01.html"><img src="images/home/02/5.jpg" class="img-responsive" alt=""/></a>
+								</div>
+								<span class="cat">Частный прием</span>
+								<h4><a href="./post_page_01.html">Time Nominated for a 2016 Primetime Emmy Award</a></h4>
+								<div class="meta"><span class="date">Sep. 22, 2016</span></div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="layout_2--item">
+								<div class="thumb">
+									<div class="icon-24 gallery2"></div>
+									<a href="./post_page_01.html"><img src="images/home/02/6.jpg" class="img-responsive" alt=""/></a>
+								</div>
+								<span class="cat">Бизнес встреча</span>
+								<h4><a href="./post_page_01.html">This Company Just Became the Biggest IPO of 2016</a></h4>
+								<div class="meta"><span class="date">Sep. 20, 2016</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="layout_1 margin-bottom-30">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="heading-1"><span>Новости</span></h3>
+							<div class="post-carousel-wrap">
+								<div class="post-carousel">
+									<div class="layout_1--item">
+										<a href="./post_page_01.html">
+											<span class="badge text-uppercase badge-overlay badge-lifestyle">Университет</span>
+											<div class="overlay"></div>
+											<img src="images/home/04/1.jpg" class="img-responsive" alt=""/>
+											<div class="layout-detail padding-25">
+												<h4>Pokemon Go Creator Says It's Not Reading</h4>
+												<p>Libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit...</p>
+												<div class="meta"><span class="date">Sep. 27, 2016</span></div>
+											</div>
+										</a>
+									</div>
+									
+									<div class="layout_1--item">
+										<a href="./post_page_01.html">
+											<span class="badge text-uppercase badge-overlay badge-entertainment">Кафедра</span>
+											<div class="overlay"></div>
+											<img src="images/home/04/2.jpg" class="img-responsive" alt=""/>
+											<div class="layout-detail padding-25">
+												<h4>Apple Stores Make An Insane Amount of Money</h4>
+												<p>Libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit...</p>
+												<div class="meta"><span class="date">Sep. 28, 2016</span></div>
+											</div>
+										</a>
+									</div>
+									
+									<div class="layout_1--item">
+										<a href="./post_page_01.html">
+											<span class="badge text-uppercase badge-overlay badge-health">Партнеры</span>
+											<div class="overlay"></div>
+											<img src="images/home/04/3.jpg" class="img-responsive" alt=""/>
+											<div class="layout-detail padding-25">
+												<h4>Silence is set to be Martin Scorsese's longest film yet</h4>
+												<p>Libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit...</p>
+												<div class="meta"><span class="date">Sep. 20, 2016</span></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								
+								<a class="prev"><i class="fa fa-angle-left"></i></a>
+								<a class="next"><i class="fa fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="layout_2 margin-bottom-20">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<div class="layout_2--item">
+								<div class="thumb">
+									<a href="./post_page_01.html"><img src="images/home/13/1.jpg" class="img-responsive" alt=""></a>
+								</div>
+								<span class="cat">Университет</span>
+								<h4><a href="./post_page_02.html">Saturday's Premier League & Final Score</a></h4>
+								<div class="meta"><span class="date">Sep. 25, 2016</span></div>
+								<ul class="more-posts">
+									<li><a href="./post_page_02.html">Parents Have Long Feared That Pokemon Is Bad for Kids</a></li>
+									<li><a href="./post_page_02.html">Sharing Your Netflix Password Is Now a Federal Crime</a></li>
+									<li><a href="./post_page_02.html">8 Tips and Tricks to Make You a Pokemon Master</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="layout_2--item">
+								<div class="thumb">
+									<a href="./post_page_01.html"><img src="images/home/13/2.jpg" class="img-responsive" alt=""></a>
+								</div>
+								<span class="cat">Кафедра</span>
+								<h4><a href="#">Bumble Has a Bold Plan to Take on LinkedIn</a></h4>
+								<div class="meta"><span class="date">Sep. 24, 2016</span></div>
+								<ul class="more-posts">
+									<li><a href="./post_page_02.html">This Is How Insanely Big Pokemon Go Is Already</a></li>
+									<li><a href="./post_page_02.html">Viacom boss set to depart in $72m deal</a></li>
+									<li><a href="./post_page_02.html">The Best New Features Coming To Your iPhone</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="layout_2--item">
+								<div class="thumb">
+									<div class="overlay-alt"></div>
+									<div class="icon-24 gallery2"></div>
+									<a href="./post_page_01.html"><img src="images/home/13/3.jpg" class="img-responsive" alt=""></a>
+								</div>
+								<span class="cat">Партнеры</span>
+								<h4><a href="#">A Longtime Microsoft Exec Just Left the Company</a></h4>
+								<div class="meta"><span class="date">Sep. 22, 2016</span></div>
+								<ul class="more-posts">
+									<li><a href="./post_page_02.html">These Are the Best iPhone Photos of 2016</a></li>
+									<li><a href="./post_page_02.html">Robots Will Start Delivering You Food This Month</a></li>
+									<li><a href="./post_page_02.html">Why Snapchat Just Made its Biggest Change Ever</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+			<aside class="col-md-4 col-sm-4">
+				<div class="side-widget margin-bottom-50">
+					<h3 class="heading-1"><span>Новости</span></h3>
+					<ul class="side-posts">
+						<li><span>25.08</span> <a href="./post_page_03.html">Trump and a C.I.A. Officer Walk Into a Room</a></li>
+						<li><span>23.08</span> <a href="./post_page_01.html">Things Are Getting Exhausting, Arent They?</a></li>
+						<li><span>22.08</span> <a href="./post_page_01.html">The Eternal Return of Unenlightened</a></li>
+						<li><span>21.08</span> <a href="./post_page_01.html">Trump Risks Alienating Key Bloc</a></li>
+						<li><span>20.08</span> <a href="./post_page_01.html">Ryan Stands Behind Trump Endorsement</a></li>
+						<li><span>19.08</span> <a href="./post_page_01.html">Clinton Leads Trump in 2 Swing States</a></li>
+						<li><span>18.08</span> <a href="./post_page_01.html">Mariah Carey Will Officially Guest Star</a></li>
+						<li><span>17.08</span> <a href="./post_page_01.html">Couples Who Have the Best Sex Have This in Common</a></li>
+						<li><span>16.08</span> <a href="./post_page_01.html">The Beatles Revolver and a Half-Century of LSD</a></li>
+						<li><span>15.08</span> <a href="./post_page_01.html">More 1-Year-Olds Get Eye Burns Than Any Other Age</a></li>
+					</ul>
+				</div>
+
+<div class="ads ad-300 margin-bottom-60">
+					<span>Реклама</span>
+					<img src="images/ads/300x250.jpg" class="img-responsive" alt=""/>
+				</div>
+				<div class="side-widget margin-bottom-60">
+					<h3 class="heading-1"><span>Подписка на новости</span></h3>
+					<div class="side-newsletter2">
+						
+						<form action="php/subscribe.php" id="invite" method="POST">
+							<i class="fa fa-envelope"></i>
+							<input type="email" placeholder="Email address" class="e-mail" name="email" id="address" data-validate="validate(required, email)">
+							<button type="submit">Go</button>
+						</form>
+						<div id="result"></div>						
+					</div>
+				</div>
+
+				<div class="side-widget margin-bottom-60">
+					<h3 class="heading-1"><span>Теги</span></h3>
+					<ul class="tags">
+						<li><a href="#">Finance</a></li>
+						<li><a href="#">Travel</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">Opinion</a></li>
+						<li><a href="#">Tech</a></li>
+						<li><a href="#">Entertainment</a></li>
+						<li><a href="#">Politics</a></li>
+						<li><a href="#">World</a></li>
+						<li><a href="#">Lifestyle</a></li>
+						<li><a href="#">Health</a></li>
+						<li><a href="#">Science</a></li>
+						<li><a href="#">Food</a></li>
+						<li><a href="#">Sports</a></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+				
+
+			</aside>
+		</div>
+	</div>
+	
+<!-- FOOTER -->
+<footer class="bg-dark footer1 footer2 padding-top-60">
+	
+	<div class="container">
+		<div class="footer-row2">
+			<div class="row">
+				<div class="col-md-2 margin-bottom-30 footer-info">
+					<img src="images/flogo.png" class="img-responsive margin-top-40" alt=""/>
+				</div>
+				<div class="col-md-6 margin-bottom-30 footer-info padding-left-30">
+					<h5>О Нас</h5>
+					<p>Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
+					<div class="span-align">
+						<span><i class="fa fa-envelope"></i> <a href="mailto:info@watcher.com">info@watcher.com</a></span>
+						<span><i class="fa fa-phone"></i> +1-202-555-0113</span>
+					</div>
+				</div>
+				<div class="col-md-4 margin-bottom-30">
+					<h5>Социальные сети</h5>
+					<div class="footer-social2">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-youtube-play"></i></a>
+						<a href="#"><i class="fa fa-envelope"></i></a>
+						<a href="#"><i class="fa fa-rss"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="footer-bottom">
+			<div class="row">
+				<div class="col-md-4">
+					<p>&copy; Copyright 2016 .</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</footer>
+
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/slick/slick.min.js"></script>
+<script src="js/socialShare.min.js"></script>
+<script src="js/jquery.simpleWeather.min.js"></script>
+<script src="js/lity/lity.min.js"></script>
+
+<!-- Theme JavaScript -->
+<script src="js/main.js"></script>
+
+<!-- Mailchimp Js -->
+<script src="js/mc/jquery.ketchup.all.min.js"></script>
+<script src="js/mc/main.js"></script>
+
+<!-- Twitterfeed -->
+<script src="js/tweecool.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#tweecool').tweecool({
+       username : 'tweecool', 
+	  profile_image: false,
+       limit : 3	
+    });
+});
+</script>
+
+</body>
+</html>
